@@ -1,0 +1,17 @@
+# mychart
+
+# Testing:
+# - Overriding values from a parent chart
+# - Global chart values
+
+global:
+  app:
+    name: my-parent-chart
+    version: 0.0.1
+  environment: test
+  hosts:
+    dh-nl-portal:
+      name: name.org.nl
+    
+mysubchart:
+  dessert: ice cream
